@@ -9,7 +9,7 @@ const Testimonial = () => {
             location: "Bihar, India", 
             image: assets.testimonial_image_1, 
             testimonial: "I've rented cars from various companies, but the experience with CarRental was exceptional" },
-        { name: "Bablu",
+        { name: "Pragya",
             location: "India, Delhi", 
             image: assets.testimonial_image_2, 
             testimonial: "carRental made my trip so easier. The car was delivered right to my door, and the customer service was fantastic!" },
