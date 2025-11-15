@@ -74,7 +74,7 @@ export const toggleCarAvailability = async (req,res)=>{
 
         const {_id} = req.user;
         const {carId} = req.body
-        const car = await Car.findById({carId})
+        const car = await Car.findById(carId)
 
         // checking if the car belongs to the user
         if (car.owner.toString() !== _id.toString())  {
@@ -98,7 +98,7 @@ export const deleteCar = async (req,res)=>{
 
         const {_id} = req.user;
         const {carId} = req.body
-        const car = await Car.findById({carId})
+        const car = await Car.findById(carId)
 
         // checking if the car belongs to the user
         if (car.owner.toString() !== _id.toString())  {
@@ -184,7 +184,7 @@ export const updateuserImage = async (req,res)=>{
         const image = optimizedImageUrl
 
         await User.findByIdAndUpdate(_id, {image});
-        response.json({success:true, message:"Image Updated"})
+        res.json({success:true, message:"Image Updated"})
     } catch (error) {
         console.log(error.message)
         res.json({ success: false, message: error.message })

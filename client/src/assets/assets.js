@@ -41,7 +41,7 @@ import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
 
-export const cityList = ['New York', 'Los Angeles', 'Houston', 'Chicago']
+export const cityList = ['New York', 'Noida', 'Gurugram', 'Uttar-pradesh', 'Delhi']
 
 export const assets = {
     logo,
@@ -231,7 +231,7 @@ export const dummyDashboardData = {
     "totalCars": 4,
     "totalBookings": 2,
     "pendingBookings": 0,
-    "completedBookings": 2,
+    "compeletedBookings": 2,
     "recentBookings": [
         dummyMyBookingsData[0],
         dummyMyBookingsData[1]

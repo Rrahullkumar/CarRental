@@ -12,7 +12,7 @@ const carSchema = new mongoose.Schema({
     fuel_type:{type:String, required:true},
     transmission:{type:String, required:true},
     pricePerDay:{type:Number, required:true},
-    location:{type:String, required:true},
+    location:{type:String, required:true}, 
     description:{type:String, required:true},
     isAvaliable:{type:Boolean, default:true},
 },{timestamps:true})
