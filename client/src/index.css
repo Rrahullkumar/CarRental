@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bytesized&family=Dancing+Script:wght@400..700&family=Lilita+One&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tektur:wght@400..900&display=swap');
+
+
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+@theme {
+  --color-primary: #2563EB;
+  --color-primary-dull: #1F58D8;
+  --color-llight: #F1F5F9;
+  --color-borderColor: #c4c7d2;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
